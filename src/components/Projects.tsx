@@ -33,19 +33,19 @@ const Projects = () => {
     },
   ];
 
+
   return (
     <section id="projects" className="py-20 bg-secondary/30">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-bold mb-4 text-center">Featured Projects</h2>
+          <h2 className="projects-header text-4xl font-bold mb-4 text-center">Featured Projects</h2>
           <div className="h-1 w-20 bg-gradient-accent mx-auto mb-12"></div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {projects.map((project, index) => (
               <Card
                 key={index}
-                className="overflow-hidden hover:shadow-elegant transition-all duration-300 hover:-translate-y-2 animate-fade-in"
-                style={{ animationDelay: `${index * 0.1}s` }}
+                className="project-card overflow-hidden hover:shadow-elegant transition-all duration-300 hover:-translate-y-2"
               >
                 <div className="relative overflow-hidden aspect-video">
                   <img
@@ -90,5 +90,6 @@ const Projects = () => {
     </section>
   );
 };
+
 
 export default Projects;

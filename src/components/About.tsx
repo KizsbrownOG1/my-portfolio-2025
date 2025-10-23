@@ -2,6 +2,7 @@ import { Card } from "@/components/ui/card";
 import { Code2, Palette, Rocket } from "lucide-react";
 import aboutPhoto from "@/assets/about-photo.jpg";
 
+
 const About = () => {
   const highlights = [
     {
@@ -29,7 +30,7 @@ const About = () => {
           <div className="h-1 w-20 bg-gradient-accent mx-auto mb-12"></div>
 
           <div className="flex flex-col md:flex-row gap-8 items-center mb-12">
-            <div className="md:w-1/3 animate-fade-in">
+            <div className="md:w-1/3 about-image">
               <img
                 src={aboutPhoto}
                 alt="Developer at work"
@@ -37,7 +38,7 @@ const About = () => {
                 loading="lazy"
               />
             </div>
-            <div className="md:w-2/3 animate-fade-in" style={{ animationDelay: "0.1s" }}>
+            <div className="md:w-2/3 about-text">
               <p className="text-lg text-muted-foreground mb-4 leading-relaxed">
                 I'm a passionate full-stack developer with expertise in building modern web applications.
                 With a focus on creating elegant solutions to complex problems, I combine technical skills
@@ -55,8 +56,7 @@ const About = () => {
             {highlights.map((item, index) => (
               <Card
                 key={index}
-                className="p-6 text-center hover:shadow-card transition-shadow animate-fade-in"
-                style={{ animationDelay: `${index * 0.1}s` }}
+                className="about-card p-6 text-center hover:shadow-elegant transition-all duration-300 hover:-translate-y-2"
               >
                 <div className="w-16 h-16 bg-gradient-accent rounded-full flex items-center justify-center mx-auto mb-4">
                   <item.icon className="text-accent-foreground" size={32} />

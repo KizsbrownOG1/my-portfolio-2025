@@ -54,7 +54,7 @@ const Experience = () => {
     <section id="experience" className="py-20">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-4xl font-bold mb-4 text-center">Experience & Education</h2>
+          <h2 className="experience-header text-4xl font-bold mb-4 text-center">Experience & Education</h2>
           <div className="h-1 w-20 bg-gradient-accent mx-auto mb-12"></div>
 
           <div className="relative">
@@ -63,25 +63,17 @@ const Experience = () => {
 
             <div className="space-y-8">
               {experiences.map((exp, index) => (
-                <div
-                  key={index}
-                  className="relative animate-slide-in"
-                  style={{ animationDelay: `${index * 0.1}s` }}
-                >
+                <div key={index} className="experience-item relative">
                   <div className="flex items-start gap-4">
-                    {/* Icon Circle */}
                     <div className="hidden md:flex w-16 h-16 rounded-full bg-gradient-accent items-center justify-center flex-shrink-0 relative z-10">
                       {getIcon(exp.type)}
                     </div>
-
-                    {/* Card Content */}
                     <Card className="flex-1 p-6 hover:shadow-card transition-shadow">
                       <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
                         <h3 className="text-xl font-semibold">{exp.title}</h3>
                         <span className="text-sm text-muted-foreground">{exp.period}</span>
                       </div>
                       <p className="text-accent font-medium mb-2">{exp.organization}</p>
-                      {exp.location && <p className="text-accent font-medium mb-2">{exp.location}</p>}
                       <p className="text-muted-foreground">{exp.description}</p>
                     </Card>
                   </div>

@@ -59,11 +59,11 @@ const Contact = () => {
     <section id="contact" className="py-20 bg-secondary/30">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-4xl font-bold mb-4 text-center">Get In Touch</h2>
+          <h2 className="contact-header text-4xl font-bold mb-4 text-center">Get In Touch</h2>
           <div className="h-1 w-20 bg-gradient-accent mx-auto mb-12"></div>
 
           <div className="grid md:grid-cols-2 gap-8">
-            <Card className="p-6 animate-fade-in">
+            <Card className="contact-info p-6">
               <h3 className="text-2xl font-semibold mb-6">Contact Information</h3>
               <div className="space-y-6">
                 {contactInfo.map((info, index) => (
@@ -80,7 +80,7 @@ const Contact = () => {
               </div>
             </Card>
 
-            <Card className="p-6 animate-fade-in" style={{ animationDelay: "0.1s" }}>
+            <Card className="contact-form p-6">
               <h3 className="text-2xl font-semibold mb-6">Send a Message</h3>
               <form onSubmit={handleSubmit} className="space-y-4">
                 <div>

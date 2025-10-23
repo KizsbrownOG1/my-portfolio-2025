@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Github, Linkedin, Mail, ArrowDown } from "lucide-react";
+import { Github, Linkedin, Mail } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
 import profilePhoto from "@/assets/profile-photo.jpg";
 import cvFile from "@/assets/Chibuike_Resume-1.pdf";
@@ -24,7 +24,7 @@ const Hero = () => {
     >
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-8 md:gap-12">
-          <div className="animate-fade-in flex-shrink-0">
+          <div className="hero-image flex-shrink-0">
             <img
               src={profilePhoto}
               alt="Professional headshot"
@@ -33,7 +33,7 @@ const Hero = () => {
             />
           </div>
           
-          <div className="animate-fade-in text-center md:text-left" style={{ animationDelay: "0.1s" }}>
+          <div className="hero-content text-center md:text-left">
             <h1 className="text-5xl md:text-7xl font-bold mb-6 text-white">
               Hi, I'm <span className="bg-gradient-accent bg-clip-text text-transparent">Okafor Chibuike</span>
             </h1>
@@ -43,13 +43,6 @@ const Hero = () => {
             </p>
 
             <div className="flex gap-4 justify-center md:justify-start mb-8">
-              {/* <Button
-                onClick={() => scrollToSection("projects")}
-                size="lg"
-                className="bg-accent hover:bg-accent/90 text-accent-foreground shadow-elegant"
-              >
-                View My Work
-              </Button> */}
               <Button
                 onClick={() => {
                   const link = document.createElement("a");

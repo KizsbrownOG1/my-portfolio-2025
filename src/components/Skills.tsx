@@ -18,20 +18,18 @@ const Skills = () => {
   },
 ];
 
-
-  return (
+return (
     <section id="skills" className="py-20">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-4xl font-bold mb-4 text-center">Skills & Technologies</h2>
+          <h2 className="skills-header text-4xl font-bold mb-4 text-center">Skills & Technologies</h2>
           <div className="h-1 w-20 bg-gradient-accent mx-auto mb-12"></div>
 
           <div className="grid md:grid-cols-3 gap-8">
             {skillCategories.map((category, categoryIndex) => (
               <Card
                 key={categoryIndex}
-                className="p-6 hover:shadow-card transition-shadow animate-fade-in"
-                style={{ animationDelay: `${categoryIndex * 0.1}s` }}
+                className="skill-card p-6 hover:shadow-card transition-shadow"
               >
                 <h3 className="text-xl font-semibold mb-4 text-accent">{category.title}</h3>
                 <div className="flex flex-wrap gap-2">
@@ -49,5 +47,4 @@ const Skills = () => {
     </section>
   );
 };
-
 export default Skills;

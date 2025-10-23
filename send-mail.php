@@ -20,6 +20,9 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $mail = new PHPMailer(true);
 
     try {
+        $mail->SMTPDebug = 2;
+        $mail->Debugoutput = 'error_log';
+
 
         $mail->isSMTP();
         $mail->Host = SMTP_HOST;
