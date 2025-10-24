@@ -25,6 +25,8 @@
     "noImplicitAny": false,
     "noUnusedParameters": false,
     "noUnusedLocals": false,
-    "strictNullChecks": false
+    "strictNullChecks": false,
+    "outDir": "dist",      // <--- add this
+    "rootDir": "src"       // <--- add this
   }
 }
