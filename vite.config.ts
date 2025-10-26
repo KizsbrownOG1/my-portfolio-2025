@@ -9,7 +9,7 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: "/my-portfolio-2025/",
+  base: "/",
   server: {
     host: true,        
     port: 5174,        

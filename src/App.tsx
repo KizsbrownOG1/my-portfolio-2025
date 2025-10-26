@@ -19,7 +19,7 @@ export default function App() {
         <Toaster />
         <Sonner />
         <HiddenImages />
-        <BrowserRouter basename="/my-portfolio-2025">
+        <BrowserRouter>
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="*" element={<NotFound />} />
