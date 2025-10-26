@@ -9,9 +9,9 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: "/my-portfolio-2025/", // 👈 REQUIRED for GitHub Pages
+  base: "/my-portfolio-2025/",
   server: {
-    host: true,        // allows access via local IP
-    port: 5174,        // optional: set port manually
+    host: true,        
+    port: 5174,        
   },
 });

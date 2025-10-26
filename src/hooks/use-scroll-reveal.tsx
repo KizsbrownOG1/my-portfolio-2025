@@ -17,8 +17,8 @@ export const useScrollReveal = () => {
     sr.reveal('.hero-image', { delay: 100, origin: 'left' });
     
     // About section
-    sr.reveal('.about-image', { origin: 'left', delay: 100 });
-    sr.reveal('.about-text', { origin: 'right', delay: 200 });
+    sr.reveal('.about-image', { delay: 100 });
+    sr.reveal('.about-text', { delay: 200 });
     sr.reveal('.about-card', { interval: 200 });
 
     // Skills section
@@ -35,8 +35,8 @@ export const useScrollReveal = () => {
 
     // Contact section
     sr.reveal('.contact-header', { delay: 100 });
-    sr.reveal('.contact-info', { origin: 'left', delay: 200 });
-    sr.reveal('.contact-form', { origin: 'right', delay: 200 });
+    sr.reveal('.contact-info', {  delay: 200 });
+    sr.reveal('.contact-form', { delay: 200 });
 
     return () => {
       sr.destroy();
