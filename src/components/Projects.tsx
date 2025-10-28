@@ -12,7 +12,7 @@ const Projects = () => {
       description: "A full-featured online shopping platform with cart, checkout, and payment integration",
       image: project1,
       tags: ["HTML5", "CSS3", "JavaScript", "PHP[Laravel]","MySQL"],
-      liveLink: "https://www.temu.com/",
+      liveLink: "https://e-commerce-platform.iceiy.com/",
       githubLink: "#",
     },
     {

@@ -41,10 +41,11 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           <button
             onClick={() => scrollToSection("home")}
-            className="text-2xl font-bold bg-gradient-accent bg-clip-text text-transparent"
+            className="hidden sm:block text-2xl font-bold bg-gradient-accent bg-clip-text text-transparent"
           >
             CHIBUIKE
           </button>
+
 
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center gap-8">
