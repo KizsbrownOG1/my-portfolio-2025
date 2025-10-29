@@ -16,11 +16,11 @@ const Projects = () => {
       githubLink: "#",
     },
     {
-      title: "Payroll Management App",
-      description: "A web application for managing employee payrolls, tracking salaries, generating payslips, and handling tax deductions efficiently.",
+      title: "CMS & Payroll Management App",
+      description: "Manage your CMS articles and employee payrolls efficiently. Navigate modules via the sidebar, store data in MySQL, track attendance, and generate payslips.",
       image: project2,
       tags: ["React", "Tailwind CSS", "JavaScript", "Python[Flask]", "PostgreSQL"],
-      liveLink: "#",
+      liveLink: "http://cms-payroll-platform.iceiy.com/",
       githubLink: "#",
     },
     {
@@ -28,7 +28,7 @@ const Projects = () => {
       description: "Beautiful weather forecast application with location-based data and interactive maps",
       image: project3,
       tags: ["React", "API Integration", "Charts", "CSS"],
-      liveLink: "#",
+      liveLink: "https://e-commerce-platform.iceiy.com/",
       githubLink: "#",
     },
   ];
