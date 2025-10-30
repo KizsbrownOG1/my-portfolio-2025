@@ -13,15 +13,15 @@ const Projects = () => {
       image: project1,
       tags: ["HTML5", "CSS3", "JavaScript", "PHP[Laravel]","MySQL"],
       liveLink: "https://e-commerce-platform.iceiy.com/",
-      githubLink: "#",
+      githubLink: "https://github.com/Chibuike1984/e-commerce-platform/",
     },
     {
       title: "CMS & Payroll Management App",
-      description: "Manage your CMS articles and employee payrolls efficiently. Navigate modules via the sidebar, store data in MySQL, track attendance, and generate payslips.",
+      description: "Manage your CMS articles and employee payrolls efficiently. Navigate modules via the sidebar, store data in MySQL database, track attendance, and generate payslips.",
       image: project2,
-      tags: ["React", "Tailwind CSS", "JavaScript", "Python[Flask]", "PostgreSQL"],
-      liveLink: "http://cms-payroll-platform.iceiy.com/",
-      githubLink: "#",
+      tags: ["React", "Tailwind CSS", "JavaScript", "Python[Flask]", "MySQL"],
+      liveLink: "https://cms-payroll-platform.iceiy.com/",
+      githubLink: "https://github.com/Chibuike1984/cms-payroll-application/",
     },
     {
       title: "Weather Dashboard",
@@ -29,7 +29,7 @@ const Projects = () => {
       image: project3,
       tags: ["React", "API Integration", "Charts", "CSS"],
       liveLink: "https://e-commerce-platform.iceiy.com/",
-      githubLink: "#",
+      githubLink: "https://github.com/Chibuike1984/e-commerce-platform/",
     },
   ];
 
