@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { ExternalLink, Github } from "lucide-react";
 import project1 from "@/assets/project1.jpg";
 import project2 from "@/assets/project2.jpg";
-import project3 from "@/assets/project3.jpg";
+import project3 from "@/assets/project3.png";
 
 const Projects = () => {
   const projects = [
@@ -12,7 +12,7 @@ const Projects = () => {
       description: "A full-featured online shopping platform with cart, checkout, and payment integration",
       image: project1,
       tags: ["HTML5", "CSS3", "JavaScript", "PHP[Laravel]","MySQL"],
-      liveLink: "https://e-commerce-platform.iceiy.com/",
+      liveLink: "https://www.delightfulhaven.com/",
       githubLink: "https://github.com/Chibuike1984/e-commerce-platform/",
     },
     {
@@ -24,12 +24,12 @@ const Projects = () => {
       githubLink: "https://github.com/Chibuike1984/cms-payroll-application/",
     },
     {
-      title: "Weather Dashboard",
-      description: "Beautiful weather forecast application with location-based data and interactive maps",
+      title: "Chalant AI",
+      description: "AI-powered workforce platform that transforms teams into hybrid Human + AI units. Manage intelligent agents, automate workflows, and accelerate employee growth into managerial roles.",
       image: project3,
-      tags: ["React", "API Integration", "Charts", "CSS"],
-      liveLink: "https://e-commerce-platform.iceiy.com/",
-      githubLink: "https://github.com/Chibuike1984/e-commerce-platform/",
+      tags: ["React", "API Integration", "PHP[Laravel]", "CSS3"],
+      liveLink: "https://www.chalantwork.com/",
+      githubLink: "https://github.com/Chibuike1984/work-website",
     },
   ];
 

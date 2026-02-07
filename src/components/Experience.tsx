@@ -6,6 +6,14 @@ const Experience = () => {
     {
       type: "work",
       title: "Full-Stack Developer",
+      organization: "KornerSpot (Remote)",
+      period: "Sep 2025 - Jan 2026",
+      description:
+        "Worked on the Nigerian dating platform, implementing QuickDate script fixes, AI-powered features for profile/bio help and messaging, email and social marketing campaigns, affiliate system integration, and real-time features like reverse matches. Ensured timely delivery, code ownership, and adherence to client workflows.",
+    },
+    {
+      type: "work",
+      title: "Full-Stack / Frontend Developer",
       organization: "Aventum Consulting (Remote)",
       period: "Feb 2025 - June 2025",
       description:
@@ -13,12 +21,20 @@ const Experience = () => {
     },
     {
       type: "work",
-      title: "Full-Stack Developer",
+      title: "Full-Stack / Frontend Developer",
       organization: "Infytel Communication Ltd (Hybrid)",
       period: "Nov 2023 - Aug 2024",
       description:
         "Developed HR Management, Payroll, and CRM features for an internal EIS platform, optimized frontend components, and debugged the mobile-first employee portal.",
     },
+    // {
+    //   type: "work",
+    //   title: "Full-Stack / Frontend Developer",
+    //   organization: "Hantek Digital Consult (Onsite)",
+    //   period: "Aug 2019 – May 2022",
+    //   description:
+    //     "Built and deployed an e-commerce platform with secure user authentication, delivered multiple client websites and internal tools using PHP and MySQL, and collaborated with the UI/UX team to create responsive frontend interfaces.",
+    // },
     {
       type: "education",
       title: "HND in Computer Science",
@@ -54,7 +70,9 @@ const Experience = () => {
     <section id="experience" className="py-20">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
-          <h2 className="experience-header text-4xl font-bold mb-4 text-center">Experience & Education</h2>
+          <h2 className="experience-header text-4xl font-bold mb-4 text-center">
+            Experience & Education
+          </h2>
           <div className="h-1 w-20 bg-gradient-accent mx-auto mb-12"></div>
 
           <div className="relative">
