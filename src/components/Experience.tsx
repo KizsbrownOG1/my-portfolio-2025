@@ -5,28 +5,36 @@ const Experience = () => {
   const experiences = [
     {
       type: "work",
-      title: "Full-Stack Developer",
-      organization: "KornerSpot (Remote)",
-      period: "Sep 2025 - Jan 2026",
+      title: "Full Stack Developer",
+      organization: "Bigfix Integrated Technologies (Hybrid)",
+      period: "Jan 2025 - April 2026",
       description:
-        "Worked on the Nigerian dating platform, implementing QuickDate script fixes, AI-powered features for profile/bio help and messaging, email and social marketing campaigns, affiliate system integration, and real-time features like reverse matches. Ensured timely delivery, code ownership, and adherence to client workflows.",
+        "Contributed to the development and maintenance of enterprise ERP applications. Built scalable REST APIs and developed responsive frontend interfaces using React.js. Improved performance of existing systems including a school management platform. Optimized backend processes and database queries for efficiency and scalability. Collaborated with cross-functional teams in a hybrid environment to deliver production-ready solutions.",
     },
     {
       type: "work",
-      title: "Full-Stack / Frontend Developer",
-      organization: "Aventum Consulting (Remote)",
-      period: "Feb 2025 - June 2025",
+      title: "Full Stack Developer",
+      organization: "KornerSpot (Remote - Contract)",
+      period: "Sept 2025 - Feb 2026",
+      description:
+        "Contributed to the development of a Nigerian dating platform, implementing QuickDate script fixes, AI-powered features for profile/bio help and messaging, email and social marketing campaigns, affiliate system integration, and real-time features like reverse matches. Ensured timely delivery, code ownership, and adherence to client workflows.",
+    },
+    {
+      type: "work",
+      title: "Full Stack / Frontend Developer",
+      organization: "Infytel Communication Ltd (Hybrid)",
+      period: "Feb 2024 - April 2025",
       description:
         "Built a large-scale Payroll and HR Management application, implementing payroll features, employee workflows, and reporting modules. Optimized PostgreSQL database performance and contributed to scalable architecture.",
     },
-    {
-      type: "work",
-      title: "Full-Stack / Frontend Developer",
-      organization: "Infytel Communication Ltd (Hybrid)",
-      period: "Nov 2023 - Aug 2024",
-      description:
-        "Developed HR Management, Payroll, and CRM features for an internal EIS platform, optimized frontend components, and debugged the mobile-first employee portal.",
-    },
+    // {
+    //   type: "work",
+    //   title: "Full-Stack / Frontend Developer",
+    //   organization: "Infytel Communication Ltd (Hybrid)",
+    //   period: "Nov 2023 - Aug 2024",
+    //   description:
+    //     "Developed HR Management, Payroll, and CRM features for an internal EIS platform, optimized frontend components, and debugged the mobile-first employee portal.",
+    // },
     // {
     //   type: "work",
     //   title: "Full-Stack / Frontend Developer",
@@ -47,7 +55,7 @@ const Experience = () => {
       title: "Software Engineering Training",
       organization: "Hantek Digital Consult",
       location: "Lagos",
-      period: "2022 - 2023",
+      period: "2021 - 2023",
       description:
         "Completed hands-on training in software development, covering web development, backend integration, and project-based application building.",
     },

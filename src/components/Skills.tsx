@@ -10,12 +10,23 @@ const Skills = () => {
   },
   {
     title: "Backend",
-    skills: ["PHP", "Laravel", "CodeIgniter", "Python", "Flask", "REST APIs", "GraphQL"],
+    skills: ["PHP", "Laravel", "CodeIgniter", "Java", "Spring Boot", "REST APIs", "GraphQL"],
   },
-  {
-    title: "Database & Tools",
-    skills: ["MySQL", "PostgreSQL","SQLite","Git", "GitHub",],
-  },
+ {
+  title: "Database & Tools",
+  skills: [
+    "MySQL",
+    "PostgreSQL",
+    "SQLite",
+    "Git",
+    "GitHub",
+    "NetBeans",
+    "Postman",
+    "VS Code",
+    "Maven",
+    "Gradle"
+  ],
+}
 ];
 
 return (

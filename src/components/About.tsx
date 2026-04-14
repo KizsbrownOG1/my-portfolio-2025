@@ -40,7 +40,7 @@ const About = () => {
             </div>
             <div className="md:w-2/3 about-text">
               <p className="text-lg text-muted-foreground mb-4 leading-relaxed">
-                I'm a passionate full-stack developer with expertise in building modern web applications.
+                I'm a passionate Full-stack Software Developer with expertise in building modern web applications.
                 With a focus on creating elegant solutions to complex problems, I combine technical skills
                 with creative design to deliver exceptional user experiences.
               </p>
