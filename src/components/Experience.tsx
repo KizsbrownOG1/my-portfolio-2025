@@ -7,7 +7,7 @@ const Experience = () => {
       type: "work",
       title: "Full Stack Developer",
       organization: "Bigfix Integrated Technologies (Hybrid)",
-      period: "Jan 2025 - April 2026",
+      period: "Sept 2025 - April 2026",
       description:
         "Contributed to the development and maintenance of enterprise ERP applications. Built scalable REST APIs and developed responsive frontend interfaces using React.js. Improved performance of existing systems including a school management platform. Optimized backend processes and database queries for efficiency and scalability. Collaborated with cross-functional teams in a hybrid environment to deliver production-ready solutions.",
     },
