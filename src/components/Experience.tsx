@@ -19,14 +19,14 @@ const Experience = () => {
       description:
         "Contributed to the development of a Nigerian dating platform, implementing QuickDate script fixes, AI-powered features for profile/bio help and messaging, email and social marketing campaigns, affiliate system integration, and real-time features like reverse matches. Ensured timely delivery, code ownership, and adherence to client workflows.",
     },
-    {
-      type: "work",
-      title: "Full Stack / Frontend Developer",
-      organization: "Infytel Communication Ltd (Hybrid)",
-      period: "Feb 2024 - April 2025",
-      description:
-        "Built a large-scale Payroll and HR Management application, implementing payroll features, employee workflows, and reporting modules. Optimized PostgreSQL database performance and contributed to scalable architecture.",
-    },
+    // {
+    //   type: "work",
+    //   title: "Full Stack / Frontend Developer",
+    //   organization: "Infytel Communication Ltd (Hybrid)",
+    //   period: "Feb 2024 - April 2025",
+    //   description:
+    //     "Built a large-scale Payroll and HR Management application, implementing payroll features, employee workflows, and reporting modules. Optimized PostgreSQL database performance and contributed to scalable architecture.",
+    // },
     // {
     //   type: "work",
     //   title: "Full-Stack / Frontend Developer",
